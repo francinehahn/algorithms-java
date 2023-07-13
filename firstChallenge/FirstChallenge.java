@@ -56,12 +56,12 @@ public class FirstChallenge {
             Collections.sort(odd, Collections.reverseOrder());
 
             System.out.println("Resposta:");
-            for (int valor : even) {
-                System.out.println(valor);
+            for (int value : even) {
+                System.out.println(value);
             }
 
-            for (int valor : odd) {
-                System.out.println(valor);
+            for (int value : odd) {
+                System.out.println(value);
             }
         } catch (RuntimeException e) {
             System.out.println(e.getMessage());
